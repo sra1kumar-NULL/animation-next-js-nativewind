@@ -1,0 +1,36 @@
+{
+  "name": "next-app-router-with-nativewind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@gluestack-ui/icon": "latest",
+    "@gluestack-ui/nativewind-utils": "latest",
+    "@gluestack-ui/overlay": "^0.1.14",
+    "@gluestack-ui/toast": "^1.0.4",
+    "@gluestack/ui-next-adapter": "^2.1.11",
+    "lucide-react-native": "^0.378.0",
+    "nativewind": "^4.0.36",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-native-svg": "^15.3.0",
+    "react-native-web": "^0.19.10",
+    "@gluestack-ui/pressable": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5"
+  }
+}

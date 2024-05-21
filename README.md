@@ -28,14 +28,7 @@ All animations are made using the nativewind css only.
 
 https://github.com/sra1kumar-NULL/animation-next-js-nativewind/assets/62778911/39a9b350-2c27-4a45-bfd2-f41ca6bc05c8
 
-## Learn More
+## Deployed on Vercel:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deployed on Vercel - LINK - https://animation-next-js-nativewind.vercel.app/
+https://animation-next-js-nativewind.vercel.app/
 

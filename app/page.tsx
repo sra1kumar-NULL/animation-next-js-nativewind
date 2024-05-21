@@ -67,8 +67,8 @@ const Container = () => {
             onPress={() => setIsAnimated((prev) => !prev)}
           >
             <Box
-              className={`delay-200 duration-300 ${
-                isAnimated ? "rotate-45" : " rotate-0"
+              className={`delay-100 duration-100 ${
+                isAnimated ? "rotate-45" : "rotate-0"
               }`}
             >
               <Icon as={PlusIcon} className={`w-10 h-10`} />
@@ -88,10 +88,12 @@ const Container = () => {
                 : "w-[0px] h-[0px]  opacity-0 hidden"
             } transition-opacity duration-300 delay-300 mt-2`}
           >
-            <Box className={`flex flex-col gap-4`}>
+            <Box
+              className={`flex flex-col gap-4 animate-[appear_1s_ease-in-out]`}
+            >
               <Box className="flex flex-row items-center">
                 <Icon as={BugIcon} className={`w-8 h-8 `} />
-                <Text className="font-normal text-xl text-black p-2">
+                <Text className="font-normal text-xl text-black p-2 ">
                   Guilds
                 </Text>
               </Box>

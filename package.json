@@ -13,6 +13,7 @@
     "@gluestack-ui/icon": "latest",
     "@gluestack-ui/nativewind-utils": "latest",
     "@gluestack-ui/overlay": "^0.1.14",
+    "@gluestack-ui/pressable": "latest",
     "@gluestack-ui/toast": "^1.0.4",
     "@gluestack/ui-next-adapter": "^2.1.11",
     "lucide-react-native": "^0.378.0",
@@ -20,9 +21,9 @@
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-native": "^0.74.1",
     "react-native-svg": "^15.3.0",
-    "react-native-web": "^0.19.10",
-    "@gluestack-ui/pressable": "latest"
+    "react-native-web": "^0.19.10"
   },
   "devDependencies": {
     "@types/node": "^20",

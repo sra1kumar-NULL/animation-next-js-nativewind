@@ -10,8 +10,19 @@ module.exports = {
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
+      keyframes: {
+        appear: {
+          '0%': { opacity:'0%' },
+          '100%': { opacity: '100%' },
+        }
+      },
+       animation: {
+        appear: 'appear 1s ease-in-out',
+      },
       transitionProperty: {
         width: "width",
+        height: "height",
+        radius: "borderRadius",
       },
       colors: {
         primary: {
